@@ -57,6 +57,9 @@ class Buyer2 {
 }
 public class Ex7_30 {
     public static void main(String[] args) {
+        Product2[] p = new Product2[10];
+        p[0] = new Tv2();
+
         Buyer2 b = new Buyer2();
 
         b.buy(new Tv2());
